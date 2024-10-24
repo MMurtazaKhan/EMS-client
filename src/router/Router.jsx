@@ -25,7 +25,7 @@ import Schedule from "../pages/schedule/Schedule";
 import Shop from "../pages/shop/Shop";
 import AdminRouter from "./AdminRoute";
 
-import Cart from "../pages/dashboard/userDashboard/cart/cart";
+import Cart from "../pages/dashboard/userDashboard/cart/Cart";
 import UserBookings from "../pages/dashboard/userDashboard/userBookings/UserBookings";
 import Wishlist from "../pages/dashboard/userDashboard/wishlist/Wishlist";
 
