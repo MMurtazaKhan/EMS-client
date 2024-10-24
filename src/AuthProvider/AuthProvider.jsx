@@ -7,7 +7,7 @@ import {
 import { app } from "../firebase/firebase.config";
 export const AuthContext = createContext();
 
-export const AuthProdiver = ({ children }) => {
+export const AuthProvider = ({ children }) => {
   const axios = useAxiosPublic();
   const auth = getAuth(app);
   const googleProvider = new GoogleAuthProvider();
