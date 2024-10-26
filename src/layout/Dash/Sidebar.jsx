@@ -25,7 +25,8 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                     }`}
             >
                 <div className="flex items-center justify-center border-b border-gray-900 py-[18px]">
-                    <Link to="/"><img src={logo} alt="" className="w-28" /></Link>
+                    {/* <Link to="/"><img src={logo} alt="" className="w-28" /></Link> */}
+                    <Link to="/"><h2 className="text-gray-100 font-semibold text-xl mb-1">Fiesta Flex</h2></Link>
                 </div>
                 <div className="overflow-y-auto custom-scroll">
                     <nav className="mt-5 px-3">

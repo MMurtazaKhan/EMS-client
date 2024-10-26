@@ -38,7 +38,8 @@ const Description = () => {
                         
                 <button onClick={goToEvents}
                   type="button"
-                  className=" text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg lg:text-lg px-5 py-2.5 text-center me-2 mb-2 mt-2"
+                  className="text-white bg-gradient-to-br from-amber-700 to-yellow-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-amber-200 dark:focus:ring-amber-800 font-medium rounded-lg lg:text-lg px-5 py-2.5 text-center me-2 mb-2 mt-2
+"
                 >
                    <span className="flex gap-2">
                    <span>Go to Events</span> <span className="mt-1"><FaArrowTrendUp /></span>
@@ -50,12 +51,7 @@ const Description = () => {
 
                 </div>
             </div>
-            <div className="my-20">
-                <h2 className="text-lg text-red-600">InnovateSphere - Tech & Beyond Summit</h2>
-                <p className="text-[#818181] mt-4">
-                    Dive into the future of technology at InnovateSphere, the ultimate summit for tech enthusiasts, innovators, and industry leaders. Explore the latest breakthroughs, engage with cutting-edge ideas, and connect with visionaries who are shaping the landscape of tomorrow.
-                </p>
-            </div>
+           
         </Container>
     );
 };

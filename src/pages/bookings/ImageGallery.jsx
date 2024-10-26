@@ -16,7 +16,7 @@ const ImageGallery = () => {
             <div className="my-20">
                 <div>
                     <h2 className="text-4xl font-bold uppercase">Image Gallery</h2>
-                    <p className='text-xl text-[#818181] mt-2'>for InnovateSphere - Tech & Beyond Summit</p>
+                    <p className='text-xl text-[#818181] mt-2'>Our Successful Events</p>
                 </div>
                 <Swiper
                     slidesPerView={3}

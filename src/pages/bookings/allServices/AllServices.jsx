@@ -30,7 +30,7 @@ const AllServices = () => {
               alt=""
               className="rounded-t-md h-full w-full object-cover transform transition-transform duration-500 hover:scale-110"
             />
-            <div className="absolute bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600   hover:bg-gradient-to-br bottom-0 left-0 px-6 py-3 text-white font-semibold rounded-tr-md flex items-center gap-3">
+            <div className="absolute bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 hover:bg-gradient-to-br bottom-0 left-0 px-6 py-3 text-white font-semibold rounded-tr-md flex items-center gap-3">
               {" "}
               <AiOutlineFieldTime /> Order Now
             </div>
@@ -59,7 +59,7 @@ const AllServices = () => {
               <Link to="/create-your-event">
                 <button
                   type="button"
-                  className=" text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 shadow-lg shadow-pink-500/50 dark:shadow-lg dark:shadow-pink-800/80 font-medium rounded-lg lg:text-lg px-5 py-2.5 text-center me-2 mb-2"
+                  className="text-white bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-amber-300 dark:focus:ring-amber-800 shadow-lg shadow-amber-500/50 dark:shadow-lg dark:shadow-amber-800/80 font-medium rounded-lg lg:text-lg px-5 py-2.5 text-center me-2 mb-2"
                 >
                   Order for a Custom Event
                 </button>
@@ -76,7 +76,8 @@ const AllServices = () => {
               alt=""
               className="rounded-t-md h-full w-full object-cover transform transition-transform duration-500 hover:scale-110"
             />
-            <div className="absolute bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl bottom-0 left-0 px-6 py-3 text-white font-semibold rounded-tr-md flex items-center gap-3">
+            <div className="absolute bg-gradient-to-r from-amber-400 to-amber-600 hover:bg-gradient-to-bl bottom-0 left-0 px-6 py-3 text-white font-semibold rounded-tr-md flex items-center gap-3
+">
               {" "}
               <IoTicket />
               Book Ticket
@@ -107,7 +108,7 @@ const AllServices = () => {
               <Link to="/events">
                 <button
                   type="button"
-                  className=" text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg lg:text-lg px-5 py-2.5 text-center me-2 mb-2"
+                  className=" text-white bg-gradient-to-r from-amber-400 to-amber-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-amber-300 dark:focus:ring-amber-800 font-medium rounded-lg lg:text-lg px-5 py-2.5 text-center me-2 mb-2"
                 >
                   Book Ticket for Existing Events
                 </button>
@@ -125,7 +126,7 @@ const AllServices = () => {
               alt=""
               className="rounded-t-md h-full w-full object-cover transform transition-transform duration-500 hover:scale-110"
             />
-            <div className="absolute bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl bottom-0 left-0 px-6 py-3 text-white font-semibold rounded-tr-md flex items-center gap-3">
+            <div className="absolute bg-gradient-to-br from-amber-700 to-yellow-500 hover:bg-gradient-to-bl bottom-0 left-0 px-6 py-3 text-white font-semibold rounded-tr-md flex items-center gap-3">
               {" "}
               <FaPeopleGroup />
               Organize
@@ -156,7 +157,8 @@ const AllServices = () => {
               <Link to="/request-organizer">
                 <button
                   type="button"
-                  className=" text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg lg:text-lg px-5 py-2.5 text-center me-2 mb-2"
+                  className="text-white bg-gradient-to-br from-amber-700 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-amber-200 dark:focus:ring-amber-800 font-medium rounded-lg lg:text-lg px-5 py-2.5 text-center me-2 mb-2
+"
                 >
                   Request for an Event Organizer
                 </button>
@@ -174,7 +176,7 @@ const AllServices = () => {
               alt=""
               className="rounded-t-md h-full w-full object-cover transform transition-transform duration-500 hover:scale-110"
             />
-            <div className="absolute bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l bottom-0 left-0 px-6 py-3 text-white font-semibold rounded-tr-md flex items-center gap-3">
+            <div className="absolute bg-gradient-to-r from-amber-700 to-yellow-500 hover:bg-gradient-to-l bottom-0 left-0 px-6 py-3 text-white font-semibold rounded-tr-md flex items-center gap-3">
               {" "}
               <FaShoppingBag />
               Shop
@@ -205,7 +207,7 @@ const AllServices = () => {
               <Link to="/shop">
                 <button
                   type="button"
-                  className=" text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg lg:text-lg px-5 py-2.5 text-center me-2 mb-2"
+                  className="text-white bg-gradient-to-r from-amber-700 to-yellow-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-amber-200 dark:focus:ring-amber-800 font-medium rounded-lg lg:text-lg px-5 py-2.5 text-center me-2 mb-2"
                 >
                   Buy Event Accessories from Shop
                 </button>
