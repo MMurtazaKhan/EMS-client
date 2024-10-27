@@ -13,6 +13,8 @@ import { VscLocation } from "react-icons/vsc";
 import { Link, useParams } from "react-router-dom";
 import loadingAnimation from "../../assets/animation/animation.json";
 import { useEffect, useState } from "react";
+import logo from "../../assets/logo/dream-craft.png";
+
 
 
 
@@ -187,51 +189,6 @@ const EventDetails = () => {
               {event.description}
             </p>
           </div>
-          <div className="mt-8 grid gap-8 md:gap-6 lg:gap-0 max-w-[840px] lg:grid-cols-2 items-center">
-            <div>
-              <h2 className="text-2xl font-semibold">Overview</h2>
-              <ul className="space-y-4 mt-5 text-lg font-medium">
-                <li className="flex items-center gap-2">
-                  <TiTick className="text-2xl" /> You Got Full Free Certificate.
-                </li>
-                <li className="flex items-center gap-2">
-                  <TiTick className="text-2xl" />
-                  Unlimited Coffe & Tea When U Boring.
-                </li>
-                <li className="flex items-center gap-2">
-                  <TiTick className="text-2xl" />
-                  Comfortable Seating Areas.
-                </li>
-                <li className="flex items-center gap-2">
-                  <TiTick className="text-2xl" />
-                  Wi-Fi Access.
-                </li>
-                <li className="flex items-center gap-2">
-                  <TiTick className="text-2xl" />
-                  Lunch Suspendisse In Commodo Feli.
-                </li>
-              </ul>
-            </div>
-            <div className="flex gap-8">
-              <img
-                className="w-[38%] md:w-[48%] rounded-tr-md rounded-bl-md h-52"
-                src="https://i.ibb.co/mGZ71df/pexels-rdne-stock-project-7648306.jpg"
-                alt=""
-              />
-              <img
-                className="w-[38%] md:w-[48%] rounded-tl-md rounded-br-md h-52"
-                src="https://i.ibb.co/9qNw5xs/leadership.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <p className="mt-8 text-gray-600 max-w-[850px]">
-            Discover the latest tech trends at Tech Expo 2024. Engage with
-            leaders, explore innovations, and experience cutting-edge demos.
-            Join us for a dynamic tech showcase. Discover the latest tech trends
-            at Tech Expo 2024. Engage with leaders, explore innovations, and
-            experience cutting-edge demos. Join us for a dynamic tech showcase.
-          </p>
 
           
         </div>
@@ -278,13 +235,9 @@ const EventDetails = () => {
                 <div className="ml-32 mt-6">
                   <img
                     className="w-40 h-40 rounded-md"
-                    src="https://i.ibb.co/c2PW68Q/pexels-italo-melo-2379004.jpg"
+                    src={logo}
                     alt=""
                   />
-                  <div className="mt-5 ">
-                    <h2 className="text-2xl font-semibold">Abdullah Mamun</h2>
-                    <h3 className="ml-16 text-lg">CEO</h3>
-                  </div>
                 </div>
               </div>
               <div className="mt-8 px-2">
