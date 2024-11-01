@@ -106,15 +106,19 @@ const Events = () => {
                                 <button
                                     className="block w-full text-left p-5 hover:bg-secondary hover:text-white text-xl border-b"
                                     onClick={() => setFilteredEvents(technology)}
-                                >Technology</button>
+                                >Catering</button>
                                 <button
                                     className="block w-full text-left p-5 hover:bg-secondary hover:text-white text-xl border-b"
                                     onClick={() => setFilteredEvents(health)}
-                                >Health</button>
+                                >Halls</button>
                                 <button
                                     className="block w-full text-left p-5 hover:bg-secondary hover:text-white text-xl border-b"
                                     onClick={() => setFilteredEvents(business)}
-                                >Business</button>
+                                >Movie & Camera</button>
+                                <button
+                                    className="block w-full text-left p-5 hover:bg-secondary hover:text-white text-xl"
+                                    onClick={() => setFilteredEvents(others)}
+                                >Sound</button>
                                 <button
                                     className="block w-full text-left p-5 hover:bg-secondary hover:text-white text-xl"
                                     onClick={() => setFilteredEvents(others)}

@@ -167,15 +167,10 @@ const EventDetails = () => {
 
 
           <div className="grid grid-cols-1 md:flex justify-center gap-3 my-6">
-            <div className="bg-pink-700 text-white px-5 py-1 rounded-md text-center">
-              <span className="text-xl font-semibold">$</span>
-              <span className="text-3xl font-semibold tracking-tight ">89</span>
-              <span className="ms-1 font-normal">/seat</span>
-            </div>
             <Link to={`/payment/${params._id}`}>
-              <button className="bg-pink-700 px-4 py-2 text-2xl w-60 text-center text-white rounded-md flex items-center  gap-2">
+              <button className="bg-pink-700 px-4 py-2 text-2xl w-30 text-center text-white rounded-md flex items-center  gap-2">
                 <IoTicketOutline className="text-3xl" />
-                Get The Ticket
+                Book 
               </button>
             </Link>
           </div>
