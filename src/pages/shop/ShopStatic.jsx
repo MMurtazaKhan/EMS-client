@@ -45,7 +45,7 @@ const Shop = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="mt-4 flex items-center justify-between">
-              <span className="text-gray-700 font-semibold">$19.99</span>
+              <span className="text-gray-700 font-semibold">1900 Rupees</span>
               <button className="bg-gradient-to-r from-rose-700 to-pink-600 text-white px-4 py-2 rounded-md flex">
                 <span>
                 Add to Cart
@@ -73,7 +73,7 @@ const Shop = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="mt-4 flex items-center justify-between">
-              <span className="text-gray-700 font-semibold">$19.99</span>
+              <span className="text-gray-700 font-semibold">2000 Rupees</span>
               <button className="bg-gradient-to-r from-rose-700 to-pink-600 text-white px-4 py-2 rounded-md flex">
                 <span>
                 Add to Cart
@@ -101,7 +101,7 @@ const Shop = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="mt-4 flex items-center justify-between">
-              <span className="text-gray-700 font-semibold">$19.99</span>
+              <span className="text-gray-700 font-semibold">2000 Rupees</span>
               <button className="bg-gradient-to-r from-rose-700 to-pink-600 text-white px-4 py-2 rounded-md flex">
                 <span>
                 Add to Cart
@@ -130,7 +130,7 @@ const Shop = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="mt-4 flex items-center justify-between">
-              <span className="text-gray-700 font-semibold">$19.99</span>
+              <span className="text-gray-700 font-semibold">2000 Rupees</span>
               <button className="bg-gradient-to-r from-rose-700 to-pink-600 text-white px-4 py-2 rounded-md flex">
                 <span>
                 Add to Cart
@@ -158,7 +158,7 @@ const Shop = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="mt-4 flex items-center justify-between">
-              <span className="text-gray-700 font-semibold">$19.99</span>
+              <span className="text-gray-700 font-semibold">1800 Rupees</span>
               <button className="bg-gradient-to-r from-rose-700 to-pink-600 text-white px-4 py-2 rounded-md flex">
                 <span>
                 Add to Cart
@@ -186,7 +186,7 @@ const Shop = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="mt-4 flex items-center justify-between">
-              <span className="text-gray-700 font-semibold">$19.99</span>
+              <span className="text-gray-700 font-semibold">2000 Rupees</span>
               <button className="bg-gradient-to-r from-rose-700 to-pink-600 text-white px-4 py-2 rounded-md flex">
                 <span>
                 Add to Cart

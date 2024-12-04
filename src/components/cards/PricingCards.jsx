@@ -19,7 +19,7 @@ const PricingCards = ({ ticketPriceHandle, ticketPriceHandle2 }) => {
                     <div onClick={ticketPriceHandle2} className='border-2 hover:shadow-2xl px-8 my-6 py-8 flex flex-col justify-center items-center space-y-2'>
                         <img className='w-20' src={standard} alt="" />
                         <p className='text-gray-500 italic'>Standard ticket</p>
-                        <h1 className='text-5xl font-bold pt-3 text-rose-600'>$89</h1>
+                        <h1 className='text-5xl font-bold pt-3 text-rose-600'>1000 Rupees</h1>
                         <div className='text-gray-500 pt-3 pb-6'>
                             <p className='border-y-2 py-3 px-6'>Full access to all lectures and workshops</p>
                             <p className='py-3 px-6 flex items-center gap-2'><ImCross className="text-red-600"/>Video presentations</p>
@@ -33,7 +33,7 @@ const PricingCards = ({ ticketPriceHandle, ticketPriceHandle2 }) => {
                     <div onClick={ticketPriceHandle} className='border-2 hover:shadow-2xl px-8 my-6 py-8 flex flex-col justify-center items-center space-y-2'>
                         <img className='w-20' src={vip} alt="" />
                         <p className='text-gray-500 italic'>VIP ticket</p>
-                        <h1 className='text-5xl font-bold pt-3 text-rose-600'>$159</h1>
+                        <h1 className='text-5xl font-bold pt-3 text-rose-600'>1500 Rupees</h1>
                         <div className='text-gray-500 pt-3 pb-6'>
                             <p className='border-y-2 py-3 px-6'>Full access to all lectures and workshops</p>
                             <p className='py-3 px-6'>Video presentations</p>
